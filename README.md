@@ -14,12 +14,12 @@ To overcome this obstacle we can use **Gunicorn** to aide us deploy our Flask pr
 
 This guide _assumes_ that you already had gone through the process of installing and authenticating the [Heroku Toolbelt](https://devcenter.heroku.com/articles/heroku-cli).
 
-## Clone The Repository
+## Fork The Repository
 
-You should **fork the repository** instead of just cloning it so you can manage your own repo and use this only as a template.
+You should **fork the repository** and then **clone it** so you can manage your own repo and use this only as a template.
 
 ```
-$ git clone https://github.com/franccesco/flask-heroku-example.git
+$ git clone https://github.com/your_username/flask-heroku-example.git
 ```
 
 At this point you should be able to modify the Flask app `app.py`:
